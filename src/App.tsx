@@ -6,11 +6,13 @@ import CartPage from "./pages/CartPage"
 import LoginPage from "./pages/LoginPage"
 import RegisterPage from "./pages/RegisterPage"
 import NotFoundPage from "./pages/NotFoundPage"
+import Navbar from "./components/layout/Navbar"
 
 
 function App() {
   return (
     <BrowserRouter>
+    <Navbar/>
       <Routes>
         <Route path="/" element={<HomePage/>} />
         <Route path="/products" element={<ProductListingPage/>} />
