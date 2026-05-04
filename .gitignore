@@ -29,3 +29,7 @@ notes.txt
 # OS files
 .DS_Store
 Thumbs.db
+
+
+# Vite cache
+.vite
