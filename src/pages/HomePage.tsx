@@ -1,10 +1,10 @@
 function HomePage() {
-    return (
-        <div>
-            <h1>Home page</h1>
-            <p>Welcome to Baemont - luxury diamond jewelery.</p>
-        </div>
-    )
+  return (
+    <div>
+      <h1>Home Page</h1>
+      <p>Welcome to Baemont — luxury diamond jewelry.</p>
+    </div>
+  )
 }
 
 export default HomePage
